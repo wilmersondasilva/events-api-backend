@@ -7,3 +7,6 @@ class Evento(models.Model):
 	foto = models.CharField(max_length=200)
 	local = models.CharField(max_length=40)
 	data = models.CharField(max_length=20)
+
+	def __str__(self):
+		return self.nome
