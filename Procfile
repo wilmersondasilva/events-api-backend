@@ -1,1 +1,1 @@
-web: gunicorn sem_nome.wsgi
+web: gunicorn events_backend.wsgi
