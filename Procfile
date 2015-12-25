@@ -1,0 +1,1 @@
+web: gunicorn sem_nome.wsgi
